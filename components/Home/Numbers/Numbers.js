@@ -1,0 +1,198 @@
+import Image from 'next/image';
+import { FaBolt, FaPlay } from 'react-icons/fa';
+import { FaPhoneVolume } from 'react-icons/fa6';
+import { IoArrowForwardSharp } from 'react-icons/io5';
+import './Numbers.css';
+
+const Numbers = () => {
+  return (
+    <section className='pb-[100px]'>
+      <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
+        <div className='number-background py-16 rounded-[10px] px-10'>
+          <div className='grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2'>
+            <div>
+              <div class='about-img-wrap wow fade-in-left'>
+                <div class='about-img-1'>
+                  <img
+                    src='https://wp.rrdevs.net/edcare/wp-content/uploads/2024/12/about-img-1.jpg'
+                    alt='icons'
+                  />
+                  <div class='video-btn'>
+                    <a
+                      class='video-popup venobox vbox-item'
+                      data-autoplay='true'
+                      data-vbtype='video'
+                      href='https://www.youtube.com/watch?v=A_yeWONPhKE&t=8s'
+                    >
+                      <div class='play-btn'>
+                        <FaPlay />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class='about-img-2'>
+                  <img
+                    src='https://wp.rrdevs.net/edcare/wp-content/uploads/2024/12/about-img-2.jpg'
+                    alt='icons'
+                  />
+                </div>
+                <div class='about-contact'>
+                  <div class='icon'>
+                    <FaPhoneVolume />
+                  </div>
+                  <div class='content'>
+                    <span>Online Support</span>
+                    <a href='tel:+09613337448'>+0961-333-7448</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <section className='section-heading'>
+                <h4 className='bg-white text-[#162726] text-[15px] font-medium inline-flex items-center gap-2.5 mb-4 relative border border-[#E0E5EB] rounded-full section-padding'>
+                  <span className='background-color-section text-[#2396d2] text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
+                    <FaBolt />
+                  </span>
+                  Get More About Us
+                </h4>
+                <h2 className='text-[20px] sm:text-[22px] md:text-[25px] lg:text-[30px] xl:text-[35px] font-semibold leading-tight mb-5'>
+                  Shaping World-Class IT Experts
+                </h2>
+                <p className='text-[15px] text-[#6C706F] mb-6'>
+                  PeopleNTech has been working with a vision to create IT
+                  experts for the past 11 years. In a fast pacing world, where
+                  every sector relies on technology, you need to develop IT
+                  skills to secure a better future.
+                </p>
+              </section>
+              <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2'>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-1.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      05+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Countries Globally
+                    </p>
+                  </div>
+                </div>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-2.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      200+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Academic Institutions
+                    </p>
+                  </div>
+                </div>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-3.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      260000+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Learners & Professionals
+                    </p>
+                  </div>
+                </div>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-4.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      300+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Skill Courses
+                    </p>
+                  </div>
+                </div>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-5.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      100+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Experienced teachers
+                    </p>
+                  </div>
+                </div>
+                <div className='flex items-center gap-4'>
+                  <div className='bg-[#ffffff] number-shadow border border-[#E0E5EB] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center'>
+                    <Image
+                      width='35'
+                      height='35'
+                      className='object-cover'
+                      src='/image/icons/about-6.svg'
+                      alt='icons'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                      250+
+                    </h4>
+                    <p className='text-[#4E5055] font-medium text-[15px]'>
+                      Industry Partners
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-7'>
+                <a href='#' className='primary-btn'>
+                  Read More
+                  <IoArrowForwardSharp className='ml-2' />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Numbers;
