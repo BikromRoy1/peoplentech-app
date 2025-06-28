@@ -11,36 +11,36 @@ const Numbers = () => {
         <div className='number-background py-16 rounded-[10px] px-10'>
           <div className='grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2'>
             <div>
-              <div class='about-img-wrap wow fade-in-left'>
-                <div class='about-img-1'>
+              <div className='about-img-wrap wow fade-in-left'>
+                <div className='about-img-1'>
                   <img
                     src='https://wp.rrdevs.net/edcare/wp-content/uploads/2024/12/about-img-1.jpg'
                     alt='icons'
                   />
-                  <div class='video-btn'>
+                  <div className='video-btn'>
                     <a
-                      class='video-popup venobox vbox-item'
+                      className='video-popup venobox vbox-item'
                       data-autoplay='true'
                       data-vbtype='video'
                       href='https://www.youtube.com/watch?v=A_yeWONPhKE&t=8s'
                     >
-                      <div class='play-btn'>
+                      <div className='play-btn'>
                         <FaPlay />
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class='about-img-2'>
+                <div className='about-img-2'>
                   <img
                     src='https://wp.rrdevs.net/edcare/wp-content/uploads/2024/12/about-img-2.jpg'
                     alt='icons'
                   />
                 </div>
-                <div class='about-contact'>
-                  <div class='icon'>
+                <div className='about-contact'>
+                  <div className='icon'>
                     <FaPhoneVolume />
                   </div>
-                  <div class='content'>
+                  <div className='content'>
                     <span>Online Support</span>
                     <a href='tel:+09613337448'>+0961-333-7448</a>
                   </div>
