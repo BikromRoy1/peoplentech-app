@@ -1,0 +1,6 @@
+.featured-background {
+  background-image: url(/image/background/Featured.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
