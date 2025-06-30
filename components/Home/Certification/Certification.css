@@ -1,10 +1,18 @@
 .Certification-background {
-  top: 55%;
+  top: 50%;
   left: 50%;
-  width: 140%;
+  width: 130%;
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
   position: absolute;
   pointer-events: none;
+}
+.blurred-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.blurred-image:hover {
+  filter: grayscale(0);
 }
