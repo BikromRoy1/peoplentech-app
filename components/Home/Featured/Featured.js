@@ -97,7 +97,7 @@ const Featured = () => {
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
                   className='w-[45px] h-[45px] object-cover'
-                  src='/image/icons/feature-1.png'
+                  src='/image/icons/feature-4.svg'
                   alt='icons'
                 />
               </div>
@@ -119,7 +119,7 @@ const Featured = () => {
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
                   className='w-[45px] h-[45px] object-cover'
-                  src='/image/icons/feature-1.png'
+                  src='/image/icons/feature-5.svg'
                   alt='icons'
                 />
               </div>
@@ -140,7 +140,7 @@ const Featured = () => {
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
                   className='w-[45px] h-[45px] object-cover'
-                  src='/image/icons/feature-2.svg'
+                  src='/image/icons/feature-6.svg'
                   alt='icons'
                 />
               </div>
