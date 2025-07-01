@@ -2,11 +2,14 @@ import { FaStar } from 'react-icons/fa';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
-const Course = () => {
+const UpcomingCourse = () => {
   return (
     <section className='pb-[100px] pt-[100px] bg-[#F2F4F7]'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
-        <SectionTitle title='Our Courses' subtitle='Skills Courses' />
+        <SectionTitle
+          title='Upcoming & Ongoing Courses'
+          subtitle='Skills Courses'
+        />
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
           <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
             <div className='px-[20px]'>
@@ -212,7 +215,7 @@ const Course = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
-                <a href='#'>Computer Fundamental & Troubleshooting Training</a>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
@@ -260,7 +263,7 @@ const Course = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
-                <a href='#'>Creative Graphic Design with Freelancing</a>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
@@ -308,7 +311,7 @@ const Course = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
-                <a href='#'>Certified Information Systems Auditor (CISA)</a>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
@@ -356,9 +359,7 @@ const Course = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
-                <a href='#'>
-                  Cisco Certified Network Associate & MikroTik Administration
-                </a>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
@@ -406,7 +407,295 @@ const Course = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
-                <a href='#'>Cisco Certified Network Professional - CCNP</a>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
+              </h4>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <h3>
+                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                      ৳ 25,000
+                    </span>
+                    <del className='ml-3 font-medium text-[15px] text-neutral-600'>
+                      ৳ 35,000
+                    </del>
+                  </h3>
+                </div>
+                <div className='flex items-center gap-1.5'>
+                  <FaStar className='text-[#ffc000]' />
+                  <span className='text-[#162726] text-[15px] font-medium'>
+                    5.0(26)
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className='flex items-center justify-between px-[20px] pb-[20px]'>
+              <a
+                href=''
+                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+              >
+                Registration
+              </a>
+              <a
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                href='#'
+              >
+                View Details{' '}
+              </a>
+            </div>
+          </div>
+          <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>
+            <div className='px-[20px]'>
+              <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                <img
+                  className=' w-full h-full object-cover'
+                  src='/image/Course/course-4.jpg'
+                  alt='icons'
+                />
+              </div>
+            </div>
+            <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
@@ -454,4 +743,4 @@ const Course = () => {
   );
 };
 
-export default Course;
+export default UpcomingCourse;
