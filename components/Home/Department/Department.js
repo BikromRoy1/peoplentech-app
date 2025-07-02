@@ -5,7 +5,6 @@ const Department = () => {
     <section className='pb-[100px] pt-[20px]'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
         <SectionTitle title='Browse By Departments' subtitle='Our Department' />
-
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4'>
           <div className='bg-[#F2F4F7] rounded-[10px] p-2.5 transition-transform duration-300 hover:-translate-y-[10px]'>
             <div>
