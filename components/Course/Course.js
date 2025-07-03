@@ -324,7 +324,7 @@ const Course = () => {
             <h2 className='text-[20px] sm:text-[22px] md:text-[25px] lg:text-[30px] xl:text-[35px] font-semibold leading-tight mb-4'>
               Post Graduate Diploma Courses
             </h2>
-            <p class='text-[15px] text-[#6C706F] font-medium'>
+            <p className='text-[15px] text-[#6C706F] font-medium'>
               Our career placement department is ready to help you find a
               lucrative job. We ensure your <br /> resume gets into the hands of
               the right hiring manager.
