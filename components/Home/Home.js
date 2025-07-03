@@ -1,6 +1,7 @@
 import Banner from '@/components/Home/Banner/Banner';
 import Department from '@/components/Home/Department/Department';
 import Course from '../Course/Course';
+import SuccessStoryText from '../SuccessStoryText/SuccessStoryText';
 import UpcomingCourse from '../UpcomingCourse/UpcomingCourse';
 import Certification from './Certification/Certification';
 import Featured from './Featured/Featured';
@@ -16,6 +17,7 @@ const Home = () => {
       <Certification />
       <Department />
       <Featured />
+      <SuccessStoryText />
     </>
   );
 };

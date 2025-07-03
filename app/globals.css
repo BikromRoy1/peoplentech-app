@@ -20,6 +20,14 @@
   --main-button-hover-color: #0b6a9c;
 }
 
+body {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.font-siliguri {
+  font-family: var(--font-hind-siliguri), sans-serif;
+}
+
 /*primary button*/
 .primary-btn {
   background-color: var(--primary-color);

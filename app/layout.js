@@ -1,13 +1,19 @@
 import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
 import TopBar from '@/components/TopBar/TopBar';
-import { Montserrat } from 'next/font/google';
+import { Hind_Siliguri, Montserrat } from 'next/font/google';
 import './globals.css';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-montserrat',
+});
+
+const hindSiliguri = Hind_Siliguri({
+  subsets: ['latin', 'bengali'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-hind-siliguri',
 });
 
 export const metadata = {
@@ -19,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={montserrat.className}>
+      <body className={`${montserrat.variable} ${hindSiliguri.variable}`}>
         <TopBar />
         <Navbar />
         {children}
