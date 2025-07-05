@@ -1,8 +1,9 @@
-import Banner from '@/components/Home/Banner/Banner';
 import Department from '@/components/Home/Department/Department';
 import Course from '../Course/Course';
 import SuccessStoryText from '../SuccessStoryText/SuccessStoryText';
 import UpcomingCourse from '../UpcomingCourse/UpcomingCourse';
+import WorkingOrganization from '../WorkingOrganizations/WorkingOrganization';
+import BannerTwo from './Banner/BannerTwo';
 import Certification from './Certification/Certification';
 import Featured from './Featured/Featured';
 import Numbers from './Numbers/Numbers';
@@ -10,7 +11,9 @@ import Numbers from './Numbers/Numbers';
 const Home = () => {
   return (
     <>
-      <Banner />
+      <BannerTwo />
+      <WorkingOrganization />
+      {/* <Banner /> */}
       <UpcomingCourse />
       <Numbers />
       <Course />

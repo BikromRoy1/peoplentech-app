@@ -84,3 +84,14 @@ body {
 .number-shadow {
   box-shadow: 0px 14px 51px 2px rgba(24, 50, 48, 0.08);
 }
+.second-btn-2 {
+  background-color: transparent;
+  border: 1px solid var(--text-primary-color);
+  color: var(--text-primary-color);
+}
+.second-btn-2:hover {
+  border: 1px solid var(--primary-color);
+}
+.second-btn-2:before {
+  background-color: var(--primary-color);
+}
