@@ -6,7 +6,7 @@ import './Numbers.css';
 
 const Numbers = () => {
   return (
-    <section className=' pt-[100px] pb-[100px]'>
+    <section className='pt-[100px] pb-[100px]'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
         <div className='number-background py-16 rounded-[10px] px-10'>
           <div className='grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2'>
