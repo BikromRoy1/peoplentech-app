@@ -51,7 +51,7 @@ const SuccessStoryText = () => {
           }}
         >
           <SwiperSlide>
-            <div className='bg-[#f4f6f9] rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
+            <div className='bg-gradient-to-br from-emerald-50 to-blue-50 rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
               <div className='mb-5'>
                 <p className='text-neutral-700 font-siliguri text-base'>
                   &quot;এই কোর্সটি আমার জীবনে এক বিশাল পরিবর্তন এনেছে। প্রতিটি
@@ -83,7 +83,7 @@ const SuccessStoryText = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='bg-[#f4f6f9] rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
+            <div className='bg-gradient-to-br from-emerald-50 to-blue-50 rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
               <div className='mb-5'>
                 <p className='text-neutral-700 font-siliguri text-base'>
                   &quot;এটাই ছিল আমার প্রথম অনলাইন কোর্স এবং অভিজ্ঞতা ছিল
@@ -114,7 +114,7 @@ const SuccessStoryText = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='bg-[#f4f6f9] rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
+            <div className='bg-gradient-to-br from-emerald-50 to-blue-50 rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
               <div className='mb-5'>
                 <p className='text-neutral-700 font-siliguri text-base'>
                   &quot;অনেক অনলাইন কোর্স করেছি, কিন্তু এই কোর্সটা সত্যিই আলাদা।
@@ -146,7 +146,7 @@ const SuccessStoryText = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='bg-[#f4f6f9] rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
+            <div className='bg-gradient-to-br from-emerald-50 to-blue-50 rounded-[10px] p-[30px] relative border border-[#E0E5EB]'>
               <div className='mb-5'>
                 <p className='text-neutral-700 font-siliguri text-base'>
                   &quot;অনেক দিন ধরেই এমন একটি কোর্স খুঁজছিলাম যেটা আমাকে শূন্য

@@ -1,5 +1,7 @@
 import Department from '@/components/Home/Department/Department';
 import Course from '../Course/Course';
+import GlobalLocation from '../GlobalLocation/GlobalLocation';
+import SisterConcerns from '../SisterConcerns/SisterConcerns';
 import SuccessStoryText from '../SuccessStoryText/SuccessStoryText';
 import SuccessStoryVideo from '../SuccessStoryVideo/SuccessStoryVideo';
 import University from '../University/University';
@@ -25,6 +27,8 @@ const Home = () => {
       <SuccessStoryText />
       <SuccessStoryVideo />
       <University />
+      <SisterConcerns />
+      <GlobalLocation />
     </>
   );
 };
