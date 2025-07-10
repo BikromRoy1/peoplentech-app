@@ -52,7 +52,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-02.jpg'
+                src='https://i.postimg.cc/TYhvc9zT/85.jpg'
                 alt='image'
               />
               <div className='success-list'>
