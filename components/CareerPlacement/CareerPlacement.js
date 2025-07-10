@@ -50,7 +50,7 @@ const CareerPlacement = () => {
         >
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-02.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-02.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5>Ayesha Rahman</h5>
                 <p>Junior Frontend Developer</p>
@@ -59,7 +59,7 @@ const CareerPlacement = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-04.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-04.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5> Tanisha Dey</h5>
                 <p>Digital Marketer</p>
@@ -68,7 +68,7 @@ const CareerPlacement = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-03.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-03.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5>Nusrat Jahan</h5>
                 <p>Junior Web Developer</p>
@@ -77,7 +77,7 @@ const CareerPlacement = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-01.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-01.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5>Sadia Afrin</h5>
                 <p>Freelancer and UI/XI Designer</p>
@@ -86,7 +86,7 @@ const CareerPlacement = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-05.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-05.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5>Tanvir Ahmed</h5>
                 <p>Graphic designer</p>
@@ -95,7 +95,7 @@ const CareerPlacement = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Placement'>
-              <img src='/image/jobs/Placements-06.jpg' alt='jobs' />
+              <img src='./image/jobs/Placements-06.jpg' alt='jobs' />
               <div className='success-list'>
                 <h5>Mohana Haque</h5>
                 <p>Digital Marketing Trainee</p>
