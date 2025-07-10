@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .shape-1 {
-  background: #2396d2;
+  background: var(--primary-color);
   opacity: 0.42;
   filter: blur(125px);
   position: absolute;

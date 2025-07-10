@@ -11,7 +11,7 @@ const Certification = () => {
             <div className='max-w-lg md:max-w-none'>
               <div className='section-heading'>
                 <h4 className='bg-white text-[#162726] text-[15px] font-medium inline-flex items-center gap-2.5 mb-4 relative border border-[#E0E5EB] rounded-full section-padding'>
-                  <span className='background-color-section text-[#2396d2] text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
+                  <span className='background-color-section text-primary text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
                     <FaBolt />
                   </span>
                   Certification And Membership

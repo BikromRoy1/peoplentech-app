@@ -34,21 +34,21 @@ const University = () => {
                 <div className='border-b border-[#E0E5EB] pb-[15px] mb-[25px] flex items-center justify-between gap-3'>
                   <ul>
                     <li className='text-[#162726] mb-[10px] font-medium text-[15px] flex items-center gap-1.5'>
-                      <RiVerifiedBadgeFill className='text-[#2396d2]' />
+                      <RiVerifiedBadgeFill className='text-primary' />
                       Globally ranked programs
                     </li>
                     <li className='text-[#162726] mb-[10px] font-medium text-[15px] flex items-center gap-1.5'>
-                      <RiVerifiedBadgeFill className='text-[#2396d2]' />
+                      <RiVerifiedBadgeFill className='text-primary' />
                       International student community
                     </li>
                   </ul>
                   <ul>
                     <li className='text-[#162726] mb-[10px] font-medium text-[15px] flex items-center gap-1.5'>
-                      <RiVerifiedBadgeFill className='text-[#2396d2]' />
+                      <RiVerifiedBadgeFill className='text-primary' />
                       State-of-the-art labs, research centers
                     </li>
                     <li className='text-[#162726] mb-[10px] font-medium text-[15px] flex items-center gap-1.5'>
-                      <RiVerifiedBadgeFill className='text-[#2396d2]' />
+                      <RiVerifiedBadgeFill className='text-primary' />
                       Dual-degree opportunities
                     </li>
                   </ul>

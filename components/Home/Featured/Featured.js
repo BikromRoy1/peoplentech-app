@@ -25,7 +25,7 @@ const Featured = () => {
           subtitle='Special Services'
         />
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -35,7 +35,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Industry Focused Live Course
                 </h3>
               </div>
@@ -48,7 +48,7 @@ const Featured = () => {
               students in their chosen field of study.
             </p>
           </div>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -58,7 +58,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Job and Internship Opportunities
                 </h3>
               </div>
@@ -71,7 +71,7 @@ const Featured = () => {
               companies in the country.
             </p>
           </div>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -81,7 +81,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Lifetime Support
                 </h3>
               </div>
@@ -92,7 +92,7 @@ const Featured = () => {
               or visit our institution for assistance whenever needed.
             </p>
           </div>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -102,7 +102,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Support For Freelance Work
                 </h3>
               </div>
@@ -114,7 +114,7 @@ const Featured = () => {
               institution at any time for their needs.
             </p>
           </div>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -124,7 +124,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Career and Interview Preparation
                 </h3>
               </div>
@@ -135,7 +135,7 @@ const Featured = () => {
               course.
             </p>
           </div>
-          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-[#2396d2] '>
+          <div className='bg-white rounded-[15px] p-[30px] border-2 border-transparent transition-all duration-300 ease-in-out hover:border-primary '>
             <div className='flex mb-[30px] items-center gap-4'>
               <div className='bg-[#F2F4F7] w-[70px] h-[70px] flex items-center justify-center rounded-[10px]'>
                 <img
@@ -145,7 +145,7 @@ const Featured = () => {
                 />
               </div>
               <div>
-                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+                <h3 className='mb-0 text-[23px] leading-7 font-semibold text-[#162726] hover:text-primary transition-all duration-300 ease-in-out'>
                   Guidance Directly From Mentors
                 </h3>
               </div>

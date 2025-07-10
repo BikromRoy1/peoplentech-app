@@ -50,7 +50,7 @@ const Numbers = () => {
             <div>
               <section className='section-heading'>
                 <h4 className='bg-white text-[#162726] text-[15px] font-medium inline-flex items-center gap-2.5 mb-4 relative border border-[#E0E5EB] rounded-full section-padding'>
-                  <span className='background-color-section text-[#2396d2] text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
+                  <span className='background-color-section text-primary text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
                     <FaBolt />
                   </span>
                   Get More About Us
@@ -77,7 +77,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       05+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
@@ -96,7 +96,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       200+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
@@ -115,7 +115,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       260000+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
@@ -134,7 +134,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       300+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
@@ -153,7 +153,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       100+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
@@ -172,7 +172,7 @@ const Numbers = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='text-[#2396d2] text-[24px] font-bold leading-normal'>
+                    <h4 className='text-primary text-[24px] font-bold leading-normal'>
                       250+
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>

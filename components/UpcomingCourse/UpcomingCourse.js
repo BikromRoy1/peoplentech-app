@@ -25,7 +25,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CF-B1-04
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -72,13 +72,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Adobe Premiere Pro Masterclass: Video </a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 70,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -118,12 +118,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -142,7 +142,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -189,13 +189,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Front-End Development with React JS</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 30,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -235,12 +235,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -259,7 +259,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -306,13 +306,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Diploma in Graphics & Animation</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 50,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -352,12 +352,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -376,7 +376,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -423,13 +423,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>IT Infrastructure & Cybersecurity Diploma</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -469,12 +469,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -493,7 +493,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -540,13 +540,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Amazon Web Service</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -586,12 +586,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -610,7 +610,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -657,13 +657,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Professional Video Editing</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -703,12 +703,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -727,7 +727,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -774,13 +774,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Professional Course Python Django</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -820,12 +820,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -844,7 +844,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -891,13 +891,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Professional UX/UI Design</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -937,12 +937,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}
@@ -961,7 +961,7 @@ const UpcomingCourse = () => {
             </div>
             <div className='p-[20px] mb-[20px] border-b border-[#E0E5EB]'>
               <div className='mb-[15px] flex items-center justify-between'>
-                <span className='bg-[#a607261a] text-[#e91f27] text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
+                <span className='bg-[#a607261a] text-course-red text-[14px] py-[5px] px-[15px] font-bold rounded-full'>
                   Batch-CCNA-B1-51
                 </span>
                 <span className='flex items-center gap-2 '>
@@ -1008,13 +1008,13 @@ const UpcomingCourse = () => {
                   </h5>
                 </span>
               </div>
-              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-[#2396d2] transition-all duration-300 ease-in-out'>
+              <h4 className='text-[19px] leading-7 font-semibold mb-[15px] hover:text-primary transition-all duration-300 ease-in-out'>
                 <a href='#'>Professional Graphic Design</a>
               </h4>
               <div className='flex items-center justify-between'>
                 <div>
                   <h3>
-                    <span className='text-[#2396d2] font-semibold text-[17px]'>
+                    <span className='text-primary font-semibold text-[17px]'>
                       ৳ 25,000
                     </span>
                     <del className='ml-3 font-medium text-[15px] text-neutral-600'>
@@ -1054,12 +1054,12 @@ const UpcomingCourse = () => {
             <div className='flex items-center justify-between px-[20px] pb-[20px]'>
               <a
                 href=''
-                className='text-white bg-[#2396d2] border border-[#2396d2] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-white bg-primary border border-primary font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
               >
                 Registration
               </a>
               <a
-                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-[#2396d2] transition-all duration-300 ease-in-out'
+                className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
                 href='#'
               >
                 View Details{' '}

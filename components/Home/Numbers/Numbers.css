@@ -46,7 +46,7 @@
 
 .about-img-wrap .about-img-1 .video-btn a {
   background-color: #fff;
-  color: #2396d2;
+  color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@
 }
 
 .about-img-wrap .about-img-1 .video-btn a:hover {
-  background-color: #2396d2;
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .about-img-wrap .about-contact {
-  background-color: #2396d2;
+  background-color: var(--primary-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -107,7 +107,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #2396d2;
+  color: var(--primary-color);
 }
 
 .about-img-wrap .about-contact .icon i {
@@ -168,7 +168,7 @@
 }
 
 .about-counter-items .about-counter-item .content .title {
-  color: #2396d2;
+  color: var(--primary-color);
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 5px;

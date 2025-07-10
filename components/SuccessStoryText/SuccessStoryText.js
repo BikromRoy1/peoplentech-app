@@ -72,7 +72,7 @@ const SuccessStoryText = () => {
                   <h4 className='text-[17px] leading-7 font-semibold text-[#162726]'>
                     Tahiya Faiza
                   </h4>
-                  <p className='text-[14px] text-[#2396d2] font-medium'>
+                  <p className='text-[14px] text-primary font-medium'>
                     MERN Stack Web Development
                   </p>
                 </div>
@@ -103,7 +103,7 @@ const SuccessStoryText = () => {
                   <h4 className='text-[17px] leading-7 font-semibold text-[#162726]'>
                     Hasibur Rahman
                   </h4>
-                  <p className='text-[14px] text-[#2396d2] font-medium'>
+                  <p className='text-[14px] text-primary font-medium'>
                     Full Stack Development
                   </p>
                 </div>
@@ -135,7 +135,7 @@ const SuccessStoryText = () => {
                   <h4 className='text-[17px] leading-7 font-semibold text-[#162726]'>
                     Nusrat Jahan
                   </h4>
-                  <p className='text-[14px] text-[#2396d2] font-medium'>
+                  <p className='text-[14px] text-primary font-medium'>
                     UI/UX Design Essentials
                   </p>
                 </div>
@@ -167,7 +167,7 @@ const SuccessStoryText = () => {
                   <h4 className='text-[17px] leading-7 font-semibold text-[#162726]'>
                     Miftahul Jannat
                   </h4>
-                  <p className='text-[14px] text-[#2396d2] font-medium'>
+                  <p className='text-[14px] text-primary font-medium'>
                     Professional Graphic Design
                   </p>
                 </div>

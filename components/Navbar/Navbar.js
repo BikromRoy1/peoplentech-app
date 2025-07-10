@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link
               href='/'
               aria-label='Home'
-              className='font-bold tracking-wide text-[15px]  transition-colors duration-200 text-[#2396d2] hover:text-[#2396d2]'
+              className='font-bold tracking-wide text-[15px]  transition-colors duration-200 text-primary hover:text-primary'
             >
               Home
             </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link
               href='/about'
               aria-label='live'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               About Us
             </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <li>
             <Link
               href='/product'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               <p> Courses</p>
             </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <li>
             <Link
               href='/team'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               Upcoming Batch
             </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
               href='/blogs'
               aria-label='Blog '
               title=' ব্লগ '
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               Join Seminars
             </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
           <li>
             <Link
               href='/contact'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               Contact
             </Link>
@@ -136,7 +136,7 @@ const Navbar = () => {
                       <Link
                         href='/'
                         aria-label='Home'
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         Home
                       </Link>
@@ -145,7 +145,7 @@ const Navbar = () => {
                       <Link
                         href='/live'
                         aria-label='live'
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         About Us
                       </Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         href='/product'
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         <p> Courses</p>
                       </Link>
@@ -161,7 +161,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         href='/team'
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         Upcoming Batch
                       </Link>
@@ -171,7 +171,7 @@ const Navbar = () => {
                         href='/blogs'
                         aria-label='Blog '
                         title=' ব্লগ '
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         Join Seminars
                       </Link>
@@ -179,7 +179,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         href='/contact'
-                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-[#2396d2]'
+                        className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         Contact
                       </Link>

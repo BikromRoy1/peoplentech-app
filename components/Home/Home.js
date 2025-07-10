@@ -1,6 +1,7 @@
 import Department from '@/components/Home/Department/Department';
+import CareerPlacement from '../CareerPlacement/CareerPlacement';
 import Course from '../Course/Course';
-import GlobalLocation from '../GlobalLocation/GlobalLocation';
+import DiplomaCourse from '../DiplomaCourse/DiplomaCourse';
 import SisterConcerns from '../SisterConcerns/SisterConcerns';
 import SuccessStoryText from '../SuccessStoryText/SuccessStoryText';
 import SuccessStoryVideo from '../SuccessStoryVideo/SuccessStoryVideo';
@@ -21,6 +22,7 @@ const Home = () => {
       <UpcomingCourse />
       <Numbers />
       <Course />
+      <DiplomaCourse />
       <Certification />
       <Department />
       <Featured />
@@ -28,7 +30,8 @@ const Home = () => {
       <SuccessStoryVideo />
       <University />
       <SisterConcerns />
-      <GlobalLocation />
+      {/* <GlobalLocation /> */}
+      <CareerPlacement />
     </>
   );
 };

@@ -31,28 +31,28 @@ const TopBar = () => {
               <a
                 target='_blank'
                 href='https://www.facebook.com/peoplentechbd'
-                className='text-white hover:text-[#2396d2]'
+                className='text-white hover:text-primary'
               >
                 <FaFacebook />
               </a>
               <a
                 target='_blank'
                 href='https://x.com/peoplentech1?lang=en'
-                className='text-white hover:text-[#2396d2]'
+                className='text-white hover:text-primary'
               >
                 <RiTwitterXLine />
               </a>
               <a
                 target='_blank'
                 href='https://www.linkedin.com/company/peoplentech-institute/'
-                className='text-white hover:text-[#2396d2]'
+                className='text-white hover:text-primary'
               >
                 <FaLinkedin />
               </a>
               <a
                 target='_blank'
                 href='https://www.youtube.com/@PeopleNTechBangladesh'
-                className='text-white hover:text-[#2396d2]'
+                className='text-white hover:text-primary'
               >
                 <IoLogoYoutube />
               </a>

@@ -16,7 +16,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>
@@ -35,7 +35,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>
@@ -54,7 +54,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>
@@ -73,7 +73,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>WUST University </span>
@@ -90,7 +90,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>Hosting Services</span>
@@ -107,7 +107,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>Freelancing Courses</span>
@@ -124,7 +124,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>
@@ -143,7 +143,7 @@ const Department = () => {
             </div>
             <div className='mt-2.5'>
               <a
-                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-[#2396d2] hover:text-white '
+                className='py-[11px] px-[16px] bg-[#d3eaf6] block rounded-[10px] text-[17px] text-[#162726] font-semibold w-full transition duration-300 hover:bg-primary hover:text-white '
                 href='#'
               >
                 <span className='flex justify-center'>
