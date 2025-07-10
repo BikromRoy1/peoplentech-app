@@ -52,7 +52,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='https://i.postimg.cc/TYhvc9zT/85.jpg'
+                src='/image/student/student-02.jpg'
                 alt='image'
               />
               <div className='success-list'>
@@ -65,7 +65,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-04.jpg'
+                src='/image/student/student-04.jpg'
                 alt='jobs'
               />
               <div className='success-list'>
@@ -78,7 +78,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-03.jpg'
+                src='/image/student/student-03.jpg'
                 alt='jobs'
               />
               <div className='success-list'>
@@ -91,7 +91,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-01.jpg'
+                src='/image/student/student-01.jpg'
                 alt='jobs'
               />
               <div className='success-list'>
@@ -104,7 +104,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-05.jpg'
+                src='/image/student/student-05.jpg'
                 alt='jobs'
               />
               <div className='success-list'>
@@ -117,7 +117,7 @@ const CareerPlacement = () => {
             <div className='Placement'>
               <img
                 className='w-full'
-                src='/image/jobs/placements-06.jpg'
+                src='/image/student/student-06.jpg'
                 alt='jobs'
               />
               <div className='success-list'>
