@@ -14,7 +14,7 @@ const WorkingOrganization = () => {
             <div className='flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between'>
               <div>
                 <img
-                  className='w-full h-16 object-cover'
+                  className='w-full h-18 object-cover'
                   src='/image/certificate/accrediated.png'
                   alt='image'
                 />
