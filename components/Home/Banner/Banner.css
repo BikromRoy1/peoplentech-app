@@ -40,7 +40,7 @@
 /* banner Two css */
 
 :root {
-  --primary-color: #2396d2;
+  --primary-color: #04a9ff;
   --secondary-color: #f1581e;
 }
 
@@ -73,7 +73,7 @@
 
 .banner-two {
   /* position: relative; */
-  padding: 100px 0px;
+  padding: 80px 0px;
   /* overflow: hidden; */
 }
 .img-fluid {
@@ -108,4 +108,18 @@
   line-height: 27px;
   opacity: 0.9;
   margin-bottom: 25px;
+}
+.banner-img {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }

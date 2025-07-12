@@ -4,6 +4,8 @@ import { IoArrowForwardSharp } from 'react-icons/io5';
 import { RiTimerLine } from 'react-icons/ri';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
+import { FaUsers } from 'react-icons/fa';
+
 const UpcomingCourse = () => {
   return (
     <section className='pb-[100px] pt-[100px] bg-[#F2F4F7]'>
@@ -107,10 +109,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 20+
+                    Projects - 10+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 230
                   </span>
                 </div>
               </div>
@@ -224,10 +235,19 @@ const UpcomingCourse = () => {
                     Duration - 3 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 10+
+                    Projects - 05+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 30
                   </span>
                 </div>
               </div>
@@ -341,10 +361,19 @@ const UpcomingCourse = () => {
                     Duration - 4 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 13+
+                    Projects - 10+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 230
                   </span>
                 </div>
               </div>
@@ -458,10 +487,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
                     Projects - 06+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 1200
                   </span>
                 </div>
               </div>
@@ -575,10 +613,19 @@ const UpcomingCourse = () => {
                     Duration - 2 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
                     Projects - 03+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 150
                   </span>
                 </div>
               </div>
@@ -692,10 +739,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 06+
+                    Projects - 04+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 23
                   </span>
                 </div>
               </div>
@@ -809,10 +865,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 06+
+                    Projects - 04+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 30
                   </span>
                 </div>
               </div>
@@ -926,10 +991,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 06+
+                    Projects - 15+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 120
                   </span>
                 </div>
               </div>
@@ -1043,10 +1117,19 @@ const UpcomingCourse = () => {
                     Duration - 6 Month
                   </span>
                 </div>
-                <div className='flex items-center gap-1.5 '>
+              </div>
+              <div className='flex items-center gap-3 mt-[10px] justify-between'>
+                <div className='flex items-center gap-1.5'>
                   <FaRegClone className='text-[#6C706F]' />
+
                   <span className='text-[#6C706F] text-[14px] font-medium'>
-                    Projects - 06+
+                    Projects - 08+
+                  </span>
+                </div>
+                <div className='flex items-center gap-1.5 '>
+                  <FaUsers className='text-[#6C706F]' />
+                  <span className='text-[#6C706F] text-[14px] font-medium'>
+                    Student Joined - 25
                   </span>
                 </div>
               </div>

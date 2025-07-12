@@ -5,8 +5,14 @@ import './DiplomaCourse.css';
 
 const DiplomaCourse = () => {
   return (
-    <section className='pb-[100px] pt-[100px] diploma-background'>
-      <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
+    <section className='pb-[100px] pt-[100px] bg-[#0f172a] relative'>
+      <div
+        className='absolute inset-0 z-0'
+        style={{
+          backgroundImage: `radial-gradient(circle 600px at 50% 50%, rgba(59,130,246,0.3), transparent)`,
+        }}
+      />
+      <div className='mx-auto px-4 sm:px-6 container lg:px-8 relative z-10'>
         {/* <div className='section-heading mb-[50px]'>
           <h4 className='bg-white text-[#162726] text-[15px] font-medium inline-flex items-center gap-2.5 mb-4 relative border border-[#E0E5EB] rounded-full section-padding'>
             <span className='background-color-section text-primary text-[14px] w-7 h-7 rounded-full flex items-center justify-center'>
@@ -26,7 +32,7 @@ const DiplomaCourse = () => {
         <SectionTitle
           title='Post Graduate Diploma Courses'
           subtitle='Diploma Programs Courses'
-          className='text-[#fed700]'
+          className='css-3xrm4'
         />
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
           <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>

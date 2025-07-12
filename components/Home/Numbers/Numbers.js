@@ -1,4 +1,6 @@
+'use client';
 import Image from 'next/image';
+import CountUp from 'react-countup';
 import { FaBolt, FaPlay } from 'react-icons/fa';
 import { FaPhoneVolume } from 'react-icons/fa6';
 import { IoArrowForwardSharp } from 'react-icons/io5';
@@ -78,7 +80,8 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      05+
+                      <CountUp end={5} duration={2.75} enableScrollSpy={true} />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Countries Globally
@@ -97,7 +100,12 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      200+
+                      <CountUp
+                        end={200}
+                        duration={2.75}
+                        enableScrollSpy={true}
+                      />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Academic Institutions
@@ -116,7 +124,12 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      260000+
+                      <CountUp
+                        end={26000}
+                        duration={2.75}
+                        enableScrollSpy={true}
+                      />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Learners & Professionals
@@ -135,7 +148,12 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      300+
+                      <CountUp
+                        end={300}
+                        duration={2.75}
+                        enableScrollSpy={true}
+                      />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Skill Courses
@@ -154,7 +172,12 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      100+
+                      <CountUp
+                        end={100}
+                        duration={2.75}
+                        enableScrollSpy={true}
+                      />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Experienced teachers
@@ -173,7 +196,12 @@ const Numbers = () => {
                   </div>
                   <div>
                     <h4 className='text-primary text-[24px] font-bold leading-normal'>
-                      250+
+                      <CountUp
+                        end={250}
+                        duration={2.75}
+                        enableScrollSpy={true}
+                      />
+                      +
                     </h4>
                     <p className='text-[#4E5055] font-medium text-[15px]'>
                       Industry Partners

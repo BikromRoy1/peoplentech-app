@@ -39,9 +39,9 @@ const BannerTwo = () => {
             </div>
           </div>
           <div className='flex items-center'>
-            <div>
+            <div className='relative'>
               <img
-                className='w-full'
+                className='w-full banner-img'
                 src='/image/background/hero-2.webp'
                 alt='banner'
               />
