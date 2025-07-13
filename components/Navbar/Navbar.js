@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href='/product'
+              href='/course'
               className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
             >
               <p> Courses</p>
@@ -152,7 +152,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href='/product'
+                        href='/course'
                         className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
                       >
                         <p> Courses</p>
