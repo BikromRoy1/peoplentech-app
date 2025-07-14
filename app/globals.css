@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+@plugin "daisyui" {
+  themes: false;
+}
 
 @theme {
   --color-primary: #04a9ff;
@@ -98,4 +101,3 @@ body {
 .second-btn-2:before {
   background-color: var(--primary-color);
 }
-
