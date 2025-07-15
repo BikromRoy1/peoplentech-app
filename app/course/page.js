@@ -1,4 +1,5 @@
 import PageBanner from '@/components/PageBanner/PageBanner';
+import Link from 'next/link';
 import { FaStar } from 'react-icons/fa';
 
 export const metadata = {
@@ -16,11 +17,11 @@ const AllCourse = () => {
           <div className='grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-6'>
             <div className='md:col-span-3'>
               <div className='bg-[#F5F7FC] rounded-[8px] p-5 border border-[#E0E5EB]'>
-                <div class='mb-6'>
-                  <h3 class='text-lg capitalize text-[#162726] font-semibold mb-2'>
+                <div className='mb-6'>
+                  <h3 className='text-lg capitalize text-[#162726] font-semibold mb-2'>
                     course Categories
                   </h3>
-                  <div class='flex items-center gap-2 p-1.5'>
+                  <div className='flex items-center gap-2 p-1.5'>
                     <input
                       id='Basic_Computing'
                       type='checkbox'
@@ -28,20 +29,20 @@ const AllCourse = () => {
                     />
 
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Basic_Computing'
                     >
                       Basic Computing
                     </label>
                   </div>
-                  <div class='flex items-center gap-2 p-1.5'>
+                  <div className='flex items-center gap-2 p-1.5'>
                     <input
                       id='Digital_Marketing'
                       type='checkbox'
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Digital_Marketing'
                     >
                       Digital_Marketing
@@ -54,7 +55,7 @@ const AllCourse = () => {
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Graphic'
                     >
                       Graphic & Multimedia
@@ -67,7 +68,7 @@ const AllCourse = () => {
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Security'
                     >
                       Security & Project Management
@@ -80,7 +81,7 @@ const AllCourse = () => {
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Network'
                     >
                       Network & Server Administration
@@ -127,10 +128,10 @@ const AllCourse = () => {
                   </div>
                 </div>
                 <div className='mb-6'>
-                  <h3 class='text-lg capitalize text-[#162726] font-semibold mb-2'>
+                  <h3 className='text-lg capitalize text-[#162726] font-semibold mb-2'>
                     course Types
                   </h3>
-                  <div class='flex items-center gap-2 p-1.5'>
+                  <div className='flex items-center gap-2 p-1.5'>
                     <input
                       id='LIVE'
                       type='checkbox'
@@ -138,33 +139,33 @@ const AllCourse = () => {
                     />
 
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='LIVE'
                     >
                       Live
                     </label>
                   </div>
-                  <div class='flex items-center gap-2 p-1.5'>
+                  <div className='flex items-center gap-2 p-1.5'>
                     <input
                       id='RECORDED'
                       type='checkbox'
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='RECORDED'
                     >
                       Recorded
                     </label>
                   </div>
-                  <div class='flex items-center gap-2 p-1.5'>
+                  <div className='flex items-center gap-2 p-1.5'>
                     <input
                       id='Freelancing'
                       type='checkbox'
                       className='checkbox checkbox-primary h-4 w-4 rounded border shadow border-primary text-white'
                     />
                     <label
-                      class='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
+                      className='text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer font-normal'
                       for='Freelancing'
                     >
                       Freelancing
@@ -262,12 +263,12 @@ const AllCourse = () => {
                     >
                       Registration
                     </a>
-                    <a
+                    <Link
                       className='text-[#162726] border border-[#E0E5EB] font-semibold text-[15px] rounded-full py-[5px] px-[20px] hover:border-primary transition-all duration-300 ease-in-out'
-                      href='#'
+                      href='/course/professional-video-editing'
                     >
                       View Details{' '}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='bg-white rounded-[10px] border border-[#E0E5EB] pt-[20px] transition-transform duration-300 hover:-translate-y-[8px]'>

@@ -1,12 +1,15 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 import './nabar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const pathname = usePathname();
 
   return (
     <div className='px-4 py-5 bg-white mx-auto sm:max-w-full md:max-w-full lg:max-w-screen md:px-24 lg:px-14 sticky top-0 z-50 header-shadow'>
@@ -19,7 +22,11 @@ const Navbar = () => {
             <Link
               href='/'
               aria-label='Home'
-              className='font-bold tracking-wide text-[15px]  transition-colors duration-200 text-primary hover:text-primary'
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               Home
             </Link>
@@ -28,7 +35,11 @@ const Navbar = () => {
             <Link
               href='/about'
               aria-label='live'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/about'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               About Us
             </Link>
@@ -36,7 +47,11 @@ const Navbar = () => {
           <li>
             <Link
               href='/course'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/course'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               <p> Courses</p>
             </Link>
