@@ -103,7 +103,7 @@ const CourseDetails = () => {
               <div className='border-[7px] border-[#f3f4f6] rounded-[15px] overflow-hidden bg-white'>
                 <img
                   className='w-full rounded-[10px]'
-                  src='/image/course/course-1.jpg'
+                  src='/image/course/course-details.jpg'
                   alt='image'
                 />
                 <div className='p-4'>
