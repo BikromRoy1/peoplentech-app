@@ -1,6 +1,8 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
+import { BsFillShieldLockFill } from 'react-icons/bs';
 import { FaRegClone, FaRegFileLines } from 'react-icons/fa6';
 import { LiaCertificateSolid, LiaToolsSolid } from 'react-icons/lia';
 import { LuBookAudio } from 'react-icons/lu';
@@ -8,11 +10,13 @@ import {
   MdOutlineOndemandVideo,
   MdOutlineSlowMotionVideo,
 } from 'react-icons/md';
+import { PiVideo } from 'react-icons/pi';
 import { RiTimerFlashLine, RiTimerLine } from 'react-icons/ri';
 import { VscWorkspaceTrusted } from 'react-icons/vsc';
 import './CourseDetails.css';
 
 const CourseDetails = () => {
+  const [showFull, setShowFull] = useState(false);
   return (
     <section>
       <section className='pb-[90px] pt-[90px] page-banner-bg bg-[#020617] relative'>
@@ -136,8 +140,248 @@ const CourseDetails = () => {
       {/* More details */}
       <div className='pb-[60px] pt-[60px]'>
         <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
-          <div className='grid grid-cols-1 gap-4 md:grid-cols-7 md:items-center md:gap-9'>
-            <div className='md:col-span-5'></div>
+          <div className='grid grid-cols-1 gap-4 md:grid-cols-7 md:gap-9'>
+            <div className='md:col-span-5'>
+              <div className='relative'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Details About the course
+                  </h2>
+
+                  {/* Always visible content */}
+                  <div>
+                    <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                      This Oracle Database Administration course provides
+                      students with the knowledge and skills to capitalize on
+                      their skills and experience as a DBA to manage an Oracle
+                      Server system.
+                    </p>
+                    <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                      This Oracle DBA training course is an intensive hands-on
+                      course designed to provide Oracle professionals with an
+                      in-depth understanding of the DBA features of Oracle,
+                      specific Oracle concepts and knowledge required for the
+                      OCP exam, and tips and techniques for passing the Oracle
+                      OCP exam on your first attempt.
+                    </p>
+                    <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                      Broad in scope, this course covers all of the Oracle
+                      Database Administration topics including SGA instance
+                      management, file & tablespace management, user
+                      administration & security, and table & index management.
+                    </p>
+                    <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                      Hands-on exercises are used to demonstrate each feature,
+                      and the student will gain first-hand experience with the
+                      key Oracle DBA concepts required to pass the Oracle OCP
+                      exam. In addition, this course provides sample OCP exam
+                      questions and an opportunity to assess your overall
+                      knowledge of Oracle DBA concepts.
+                    </p>
+                  </div>
+                  {/* Hidden content - show only if showFull is true */}
+                  {showFull && (
+                    <div>
+                      <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                        This course is intended for those who want to work as
+                        Database Administrators. This course covers Oracle
+                        Database Administration DBA 12C/19C.
+                      </p>
+                      <p className='text-gray-700 text-[15px] mb-4 font-medium'>
+                        Oracle Database Administration (DBA) is the management
+                        and maintenance of Oracle database systems. DBAs use
+                        Oracles database software to store and organize data and
+                        ensure that it is secure and accessible. You’ll develop
+                        your skills by learning all of these from our best
+                        oracle database administration course in Bangladesh
+                      </p>
+                    </div>
+                  )}
+                  <div className='text-center absolute bottom-[-17px] left-1/2 flex translate-x-[-50%] items-center'>
+                    <button
+                      onClick={() => setShowFull(!showFull)}
+                      className='font-medium text-sm text-gray-500 bg-white hover:bg-primary hover:text-white px-5 py-[6px] rounded-full transition shadow-[0px_0px_17.0361px_#E7EAF7] cursor-pointer'
+                    >
+                      {showFull ? 'Summarize' : 'Read More'}
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Course Modules
+                  </h2>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg'>
+                    <input type='radio' name='my-accordion-3' defaultChecked />
+                    <div className='collapse-title font-semibold'>
+                      Module-01 : Introduction to Website Development?
+                    </div>
+                    <div className='collapse-content text-sm'>
+                      <ul>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed pb-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                What is web development?
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                How to connect web application with database on
+                                the web
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                Basics of Web Development
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold'>
+                      Module-02 : Let&apos;s Dive into MySQL Database?
+                    </div>
+                    <div className='collapse-content text-sm'>
+                      <ul>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed pb-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                MySQL Intro – How, when and where to use
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                MySQL Connect – How to get connected
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                CREATE Database – How to Create Database
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold'>
+                      Module-01 : Basics of PHP
+                    </div>
+                    <div className='collapse-content text-sm'>
+                      <ul>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed pb-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                Syntax, Print / Echo – Basic concepts on PHP
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='border-b border-b-[#e5e8ef] border-dashed py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                Variables, Data Types, Constants – Data Types
+                                and Variables in PHP
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                        <li className='py-3'>
+                          <div className='flex items-center justify-between'>
+                            <div className='flex items-center gap-2'>
+                              <div>
+                                <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
+                              </div>
+                              <p className='text-[16px] font-medium text-neutral-600'>
+                                Operators – Operators in PHP Programming
+                              </p>
+                            </div>
+                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className='md:col-span-2'>
               <div className='relative p-[2px] rounded-xl bg-gradient-to-r from-[#04a9ff] to-[#f1581e]'>
                 <div className='bg-white rounded-xl p-6'>
