@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsFillShieldLockFill } from 'react-icons/bs';
@@ -377,6 +378,227 @@ const CourseDetails = () => {
                           </div>
                         </li>
                       </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    What you will learn
+                  </h2>
+                  <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4'>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/Analytics.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        Google Analytics 4
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/chatGPT.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        ChatGPT
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/Manager.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        Google Tag Manager
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/linkdin.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        Linkedin Ads
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/vscode.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        VS Code
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/DATA-Studio.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        Google Data Studio
+                      </h4>
+                    </div>
+                    <div className='border border-[#d9ddef] rounded-lg px-5 py-3 text-center transition-shadow duration-300 hover:shadow-[0_10px_14px_rgba(0,0,0,0.05)]'>
+                      <div className='w-[50px] h-[50px] mx-auto flex items-center justify-center'>
+                        <Image
+                          width={40}
+                          height={40}
+                          className='object-cover'
+                          src='/image/icons/server.png'
+                          alt='icons'
+                        />
+                      </div>
+                      <h4 className='font-semibold mt-2 pb-1 text-[15px]'>
+                        Window Server
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Course Instructor
+                  </h2>
+                  <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
+                    <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='w-[70px] h-[70] rounded-[10px]'>
+                          <Image
+                            width={70}
+                            height={70}
+                            className='object-cover rounded-[10px]'
+                            src='/image/icons/pic4.jpg'
+                            alt='Instructor'
+                          />
+                        </div>
+                        <div>
+                          <h4 className='text-[17px] font-semibold text-[#162726] mb-1'>
+                            Yeasin Arafat
+                          </h4>
+                          <p className='text-[14px] text-primary font-medium'>
+                            Lead Instructor
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='w-[70px] h-[70] rounded-[10px]'>
+                          <Image
+                            width={70}
+                            height={70}
+                            className='object-cover rounded-[10px]'
+                            src='/image/icons/pic3.jpg'
+                            alt='Instructor'
+                          />
+                        </div>
+                        <div>
+                          <h4 className='text-[17px]  font-semibold text-[#162726] mb-1'>
+                            Al Rabby Siemens
+                          </h4>
+                          <p className='text-[14px] text-primary font-medium'>
+                            Lead Instructor
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='w-[70px] h-[70] rounded-[10px]'>
+                          <Image
+                            width={70}
+                            height={70}
+                            className='object-cover rounded-[10px]'
+                            src='/image/icons/pic2.jpg'
+                            alt='Instructor'
+                          />
+                        </div>
+                        <div>
+                          <h4 className='text-[17px] capitalize font-semibold text-[#162726] mb-1'>
+                            Jafar Imam
+                          </h4>
+                          <p className='text-[14px] text-primary font-medium'>
+                            Support Instructor
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='w-[70px] h-[70] rounded-[10px]'>
+                          <Image
+                            width={70}
+                            height={70}
+                            className='object-cover rounded-[10px]'
+                            src='/image/icons/pic8.jpg'
+                            alt='Instructor'
+                          />
+                        </div>
+                        <div>
+                          <h4 className='text-[17px] capitalize font-semibold text-[#162726] mb-1'>
+                            Jannatul Bushra
+                          </h4>
+                          <p className='text-[14px] text-primary font-medium'>
+                            Support Instructor
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='w-[70px] h-[70] rounded-[10px]'>
+                          <Image
+                            width={70}
+                            height={70}
+                            className='object-cover rounded-[10px]'
+                            src='/image/icons/pic9.jpg'
+                            alt='Instructor'
+                          />
+                        </div>
+                        <div>
+                          <h4 className='text-[17px] capitalize font-semibold text-[#162726] mb-1'>
+                            Kathleen Moreno
+                          </h4>
+                          <p className='text-[14px] text-primary font-medium'>
+                            Support Instructor
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
