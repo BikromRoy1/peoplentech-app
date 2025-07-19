@@ -603,6 +603,140 @@ const CourseDetails = () => {
                   </div>
                 </div>
               </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Frequently Asked Questions
+                  </h2>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg'>
+                    <input type='radio' name='my-accordion-3' defaultChecked />
+                    <div className='collapse-title font-semibold font-siliguri'>
+                      প্রশ্ন-০১ : কেমন সময় দেয়া লাগবে এ প্রোগ্রামে?
+                    </div>
+                    <div className='collapse-content text-sm font-siliguri'>
+                      এটা তো আসলে ব্যক্তিবিশেষে আলাদা – কারো কম সময় লাগবে, কারো
+                      বেশি সময় লাগবে! তবে আশা করা যায়ঃ প্রতি সপ্তাহে গড়ে ১০-১৫
+                      ঘণ্টা করে সময় দিলে আপনি পুরো সিলেবাস শিখে ফেলতে পারবেন।
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold font-siliguri'>
+                      প্রশ্ন-০২ : সবগুলো প্রজেক্ট কি ৬ মাসেই শেষ করতে হবে?
+                    </div>
+                    <div className='collapse-content text-sm font-siliguri'>
+                      হ্যাঁ, ৬ মাসেই শেষ করতে হবে। তা না হলে আমাদের পক্ষে
+                      প্রজেক্ট রিভিউ ও স্কোর করা সম্ভব হবে না। অর্থাৎ
+                      সার্টিফিকেটও দেওয়া হবে না ৬ মাস পর। তবে আপনি চাইলে নিজ
+                      উদ্যোগে ৬ মাস পরও প্রজেক্ট প্র্যাকটিস করতে পারেন।
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold font-siliguri'>
+                      প্রশ্ন-০৩ : সার্টিফিকেট পাওয়া যাবে?
+                    </div>
+                    <div className='collapse-content text-sm font-siliguri'>
+                      হ্যাঁ, অবশ্যই। কোর্স শেষে সার্টিফিকেট তো থাকছেই। তবে এজন্য
+                      ৬ মাসের ভেতর কোর্স শেষ করতে হবে। কারণ প্রজেক্ট রিভিউর মতো
+                      ব্যাপারগুলো এ ৬ মাস পর থাকবে না।
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold font-siliguri'>
+                      প্রশ্ন-০৪ : কোর্স কোন সময় করবো? নির্দিষ্ট কোনো সময়ে ক্লাস
+                      হবে কি না?
+                    </div>
+                    <div className='collapse-content text-sm font-siliguri'>
+                      আমাদের প্রতিটা কোর্সের আপকামিং সিডিউল দেওয়া আছে। আপকামিং
+                      সিডিউল দেখে আপনি ভর্তি কনফার্ম করতে পারেন অথবা আপনার
+                      ফ্লেক্সিবিলিটি অনুযায়ী কোর্স করতে পারবেন।
+                    </div>
+                  </div>
+                  <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg mt-4'>
+                    <input type='radio' name='my-accordion-3' />
+                    <div className='collapse-title font-semibold font-siliguri'>
+                      প্রশ্ন-০৫ : শিক্ষাগত যোগ্যতা? নন-টেকনিক্যাল
+                      ব্যাকগ্রাউন্ডের মানুষ এটি করতে পারবে?
+                    </div>
+                    <div className='collapse-content text-sm font-siliguri'>
+                      নির্দিষ্ট কোনো ডিগ্রি রিকোয়্যারমেন্ট নেই। তবে কমপক্ষে
+                      এইচএসসি বা সমমানের যোগ্যতা থাকা উচিত। এছাড়া, STEM
+                      (Science, Technology, Engineering, Mathematics)
+                      ব্যাকগ্রাউন্ডের শিক্ষার্থীদের জন্য এ কোর্স তুলনামূলকভাবে
+                      সহজ হবে। অবশ্য নন-টেকনিক্যাল (যেমন, কমার্স কিংবা আর্টস)
+                      ব্যাকগ্রাউন্ডের মানুষরাও এ কোর্স করতে পারবে। পাশাপাশি
+                      কয়েকটি বেসিক বিষয় জানতে হবে। যেমন, Basic Algebra সম্পর্কে
+                      ভাল ধারণা থাকা। আবার কম্পিউটার চালানো এবং ইন্টারনেট
+                      ব্রাউজার ব্যবহারে কমফোর্টেবল হতে হবে। এছাড়া, গুগলে সার্চ
+                      করে কোনো টপিক ঘেঁটে দেখার মতো অভ্যাস থাকা উচিত।
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='lg:px-12 p-8 certificate-bg lg:pb-0 lg:p-12 relative rounded-[20px] h-full lg:flex lg:flex-row justify-between bg-cover flex-col gap-5'>
+                  <div className='max-w-sm relative z-10'>
+                    <h3 className='font-bold text-white text-2xl md:text-3xl mb-3'>
+                      Course Certificate
+                    </h3>
+                    <p className='text-base text-white/70 mb-8'>
+                      Get Course Completion and Assessment Certificate at the
+                      end of the course
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <img
+                        src='/image/certificate/certification-demo.jpg'
+                        className='hidden lg:block relative z-10'
+                        alt='certificate'
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Any more query?
+                  </h2>
+                  <div className='flex w-full items-center justify-start'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='28'
+                      height='28'
+                      fill='none'
+                      viewBox='0 0 29 28'
+                      className='w-[17px] h-[17px] md:w-6 md:h-6'
+                    >
+                      <path
+                        stroke='#04a9ff'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2.223'
+                        d='M17.246 2.917a9.298 9.298 0 018.213 8.204M17.246 7.05a5.164 5.164 0 014.083 4.083'
+                      ></path>
+                      <path
+                        stroke='#04a9ff'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth='2.223'
+                        d='M13.37 14.551c4.655 4.653 5.71-.73 8.673 2.231 2.857 2.856 4.5 3.428.88 7.047-.454.364-3.334 4.748-13.457-5.373C-.658 8.335 3.722 5.451 4.086 4.998c3.629-3.628 4.193-1.977 7.05.879 2.961 2.962-2.42 4.022 2.235 8.674z'
+                        clipRule='evenodd'
+                      ></path>
+                    </svg>
+                    <h3 className='ml-2 text-md font-medium md:text-lg text-[#04a9ff]'>
+                      Call For Any Information Regarding The Course
+                      <span className='text-[#04a9ff]'>
+                        {' '}
+                        +880179-944-6655 (09 AM to 09 PM)
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className='md:col-span-2'>
               <div className='relative p-[2px] rounded-xl bg-gradient-to-r from-[#04a9ff] to-[#f1581e]'>
