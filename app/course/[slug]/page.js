@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsFillShieldLockFill } from 'react-icons/bs';
-import { FaRegClone, FaRegFileLines } from 'react-icons/fa6';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaLinkedinIn, FaRegClone, FaRegFileLines } from 'react-icons/fa6';
 import { LiaCertificateSolid, LiaToolsSolid } from 'react-icons/lia';
 import { LuBookAudio } from 'react-icons/lu';
 import {
@@ -13,6 +14,7 @@ import {
 } from 'react-icons/md';
 import { PiVideo } from 'react-icons/pi';
 import { RiTimerFlashLine, RiTimerLine } from 'react-icons/ri';
+import { SiReaddotcv } from 'react-icons/si';
 import { VscWorkspaceTrusted } from 'react-icons/vsc';
 import './CourseDetails.css';
 
@@ -676,21 +678,55 @@ const CourseDetails = () => {
                 </div>
               </div>
               <div className='mt-10'>
-                <div className='lg:px-12 p-8 certificate-bg lg:pb-0 lg:p-12 relative rounded-[20px] h-full lg:flex lg:flex-row justify-between bg-cover flex-col gap-5'>
+                <div className='lg:px-12 p-8 certificate-bg lg:pb-8 lg:p-12 relative rounded-[20px] h-full lg:flex lg:flex-row justify-between bg-cover flex-col gap-5'>
                   <div className='max-w-sm relative z-10'>
                     <h3 className='font-bold text-white text-2xl md:text-3xl mb-3'>
                       Course Certificate
                     </h3>
-                    <p className='text-base text-white/70 mb-8'>
+                    <p className='text-base text-white/70 mb-7'>
                       Get Course Completion and Assessment Certificate at the
                       end of the course
                     </p>
+                    <div>
+                      <div className='flex items-center gap-3 mb-3'>
+                        <div>
+                          <div className='p-2 bg-[#4fc3ff] rounded-md shadow'>
+                            <SiReaddotcv size={20} className='text-white' />
+                          </div>
+                        </div>
+                        <h4 className='text-[15px] font-semibold text-[#fff]'>
+                          Can add to your CV
+                        </h4>
+                      </div>
+                      <div className='flex items-center gap-3 mb-3'>
+                        <div>
+                          <div className='p-2 bg-[#4fc3ff] rounded-md shadow'>
+                            <FaLinkedinIn size={20} className='text-white' />
+                          </div>
+                        </div>
+                        <h4 className='text-[15px] font-semibold text-[#fff]'>
+                          You can share directly on your LinkedIn profile
+                        </h4>
+                      </div>
+                      <div className='flex items-center gap-3'>
+                        <div>
+                          <div className='p-2 bg-[#4fc3ff] rounded-md shadow'>
+                            <FaFacebookF size={20} className='text-white' />
+                          </div>
+                        </div>
+                        <h4 className='text-[15px] font-semibold text-[#fff]'>
+                          You can share on Facebook with one click
+                        </h4>
+                      </div>
+                    </div>
                   </div>
                   <div>
-                    <div>
-                      <img
+                    <div className='border-[7px] border-[#f3f4f6] rounded-[15px] overflow-hidden bg-white hidden lg:block'>
+                      <Image
+                        width={400}
+                        height={400}
                         src='/image/certificate/certification-demo.jpg'
-                        className='hidden lg:block relative z-10'
+                        className='hidden lg:block relative z-10 rounded-[10px]'
                         alt='certificate'
                       />
                     </div>
