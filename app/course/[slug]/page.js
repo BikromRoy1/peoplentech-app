@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsFillShieldLockFill } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF, FaQuoteRight } from 'react-icons/fa';
 import { FaLinkedinIn, FaRegClone, FaRegFileLines } from 'react-icons/fa6';
 import { LiaCertificateSolid, LiaToolsSolid } from 'react-icons/lia';
 import { LuBookAudio } from 'react-icons/lu';
@@ -608,6 +608,80 @@ const CourseDetails = () => {
               <div className='mt-10'>
                 <div className='border border-[#dee2e6] rounded-xl p-6'>
                   <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
+                    Student Feedback
+                  </h2>
+                  <div className='grid grid-cols-1 gap-5 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
+                    <div className='rounded-[10px] p-[25px] relative border border-[#E0E5EB]'>
+                      <div className='mb-5'>
+                        <p className='text-neutral-700 font-siliguri text-base'>
+                          &quot;এই কোর্সটি আমার জীবনে এক বিশাল পরিবর্তন এনেছে।
+                          প্রতিটি লেকচার পরিষ্কারভাবে উপস্থাপন করা হয়েছে এবং
+                          প্র্যাকটিক্যাল প্রজেক্টগুলো শেখাকে আরও সহজ করে তুলেছে।
+                          কোর্সটি শেষ করার পর আমি ফ্রিল্যান্সিং শুরু করেছি এবং
+                          ইতিমধ্যে কয়েকটি প্রজেক্ট পেয়েছি। শিক্ষকদের সাপোর্টও
+                          দারুণ ছিল। আমি সবাইকে এই কোর্সটি পরামর্শ &quot;
+                        </p>
+                      </div>
+                      <div className='flex items-center gap-3'>
+                        <Image
+                          width={50}
+                          height={50}
+                          className='object-cover rounded-full'
+                          src='/image/icons/user-06.webp'
+                          alt='users'
+                        />
+                        <div>
+                          <h4 className='text-[15px] leading-7 font-semibold text-[#162726]'>
+                            Tahiya Faiza
+                          </h4>
+                          <p className='text-[13px] text-primary font-medium'>
+                            MERN Stack Web Development
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <FaQuoteRight className='text-[#2490eb] text-[54px] leading-[62px] absolute right-[30px] bottom-[30px] opacity-[0.1]' />
+                      </div>
+                    </div>
+                    <div className='rounded-[10px] p-[25px] relative border border-[#E0E5EB]'>
+                      <div className='mb-5'>
+                        <p className='text-neutral-700 font-siliguri text-base'>
+                          &quot;অনেক দিন ধরেই এমন একটি কোর্স খুঁজছিলাম যেটা
+                          আমাকে শূন্য থেকে শুরু করে একদম প্রফেশনাল লেভেল পর্যন্ত
+                          নিয়ে যাবে—এটাই সেই কোর্স! প্রতিটি মডিউল সুন্দরভাবে
+                          সাজানো, ভিডিও কোয়ালিটি চমৎকার, আর ইনস্ট্রাক্টরের
+                          এক্সপ্লেনেশন ছিল অত্যন্ত পরিষ্কার। আমি এখন নিজের একটা
+                          প্রজেক্টে কাজ করছি, যেটা এক মাস আগেও অসম্ভব মনে
+                          হতো।&quot;
+                        </p>
+                      </div>
+                      <div className='flex items-center gap-3'>
+                        <Image
+                          width={50}
+                          height={50}
+                          className='object-cover rounded-full'
+                          src='/image/icons/user-14.jpg'
+                          alt='users'
+                        />
+                        <div>
+                          <h4 className='text-[15px] leading-7 font-semibold text-[#162726]'>
+                            Miftahul Jannat
+                          </h4>
+                          <p className='text-[13px] text-primary font-medium'>
+                            Professional Graphic Design
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <FaQuoteRight className='text-[#2490eb] text-[54px] leading-[62px] absolute right-[30px] bottom-[30px] opacity-[0.1]' />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-10'>
+                <div className='border border-[#dee2e6] rounded-xl p-6'>
+                  <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
                     Frequently Asked Questions
                   </h2>
                   <div className='collapse collapse-plus bg-base-100 border border-[#e2e8ec] rounded-lg'>
@@ -733,6 +807,7 @@ const CourseDetails = () => {
                   </div>
                 </div>
               </div>
+
               <div className='mt-10'>
                 <div className='border border-[#dee2e6] rounded-xl p-6'>
                   <h2 className='mb-5 text-2xl font-semibold capitalize leading-[30px] text-[#003384]'>
