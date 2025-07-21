@@ -1,4 +1,5 @@
 import SectionTitle from '@/components/SectionTitle/SectionTitle';
+import Link from 'next/link';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import './Featured.css';
 
@@ -157,10 +158,10 @@ const Featured = () => {
           </div>
         </div>
         <div className='mt-8 text-center'>
-          <a href='#' className='primary-btn'>
+          <Link href='/facilities' className='primary-btn'>
             Show More
             <IoArrowForwardSharp className='ml-2' />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
