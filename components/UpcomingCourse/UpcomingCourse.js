@@ -4,6 +4,7 @@ import { IoArrowForwardSharp } from 'react-icons/io5';
 import { RiTimerLine } from 'react-icons/ri';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
+import Link from 'next/link';
 import { FaUsers } from 'react-icons/fa';
 
 const UpcomingCourse = () => {
@@ -1151,10 +1152,10 @@ const UpcomingCourse = () => {
           </div>
         </div>
         <div className='mt-8 text-center'>
-          <a href='#' className='primary-btn'>
+          <Link href='/upcoming-batches' className='primary-btn'>
             View all course
             <IoArrowForwardSharp className='ml-2' />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

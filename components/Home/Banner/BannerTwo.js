@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import './Banner.css';
 const BannerTwo = () => {
@@ -28,13 +29,13 @@ const BannerTwo = () => {
                 dynamic digital landscape
               </p>
               <div className='flex items-center gap-5'>
-                <a href='#' className='primary-btn'>
+                <Link href='/course' className='primary-btn'>
                   Find The Course
                   <IoArrowForwardSharp className='ml-2' />
-                </a>
-                <a href='#' className='primary-btn second-btn-2'>
+                </Link>
+                <Link href='/seminars' className='primary-btn second-btn-2'>
                   Join Free Seminar <IoArrowForwardSharp className='ml-2' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

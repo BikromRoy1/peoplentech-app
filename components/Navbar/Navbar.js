@@ -58,18 +58,26 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href='/team'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
+              href='/upcoming-batches'
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/upcoming-batches'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               Upcoming Batch
             </Link>
           </li>
           <li>
             <Link
-              href='/blogs'
-              aria-label='Blog '
-              title=' ব্লগ '
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
+              href='/seminars'
+              aria-label='Seminars'
+              title=' Seminars '
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/seminars'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               Join Seminars
             </Link>
