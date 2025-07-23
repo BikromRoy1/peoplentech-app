@@ -85,7 +85,11 @@ const Navbar = () => {
           <li>
             <Link
               href='/contact'
-              className='font-semibold tracking-wide text-[15px]  transition-colors duration-200 text-gray-700 hover:text-primary'
+              className={`font-semibold tracking-wide text-[15px] transition-colors duration-200 ${
+                pathname === '/contact'
+                  ? 'text-primary font-bold'
+                  : 'text-gray-700 hover:text-primary'
+              }`}
             >
               Contact
             </Link>
