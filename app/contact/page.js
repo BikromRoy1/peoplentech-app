@@ -1,3 +1,4 @@
+import BranchOffice from '@/components/ContactUs/BranchOffice/BranchOffice';
 import ContactForm from '@/components/ContactUs/ContactForm/ContactForm';
 import GoogleMap from '@/components/ContactUs/GoogleMap/GoogleMap';
 import GlobalLocation from '@/components/GlobalLocation/GlobalLocation';
@@ -11,6 +12,7 @@ const Contact = () => {
         subtitle='Contact Us'
       />
       <ContactForm />
+      <BranchOffice />
       <GlobalLocation />
       <GoogleMap />
     </div>
