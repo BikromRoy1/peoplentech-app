@@ -88,9 +88,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='font-medium text-base text-white'>
+                    <Link
+                      href='/faculty'
+                      className='font-medium text-base text-white'
+                    >
                       Our Mentors
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href='#' className='font-medium text-base text-white'>
@@ -107,28 +110,38 @@ const Footer = () => {
             </div>
             <div className='md:col-span-3 lg:col-span-2 pt-8 lg:pt-0 lg:pl-3'>
               <h4 className='mb-7 text-white text-2xl font-semibold'>
-                Our Services
+                Quick Links
               </h4>
               <nav>
                 <ul className='space-y-4'>
                   <li>
                     <a href='#' className='font-medium text-base text-white'>
-                      Contact & Faq
+                      Join Free Seminars
                     </a>
                   </li>
                   <li>
                     <a href='#' className='font-medium text-base text-white'>
-                      Track Your Order
+                      Success Story
                     </a>
                   </li>
                   <li>
                     <a href='#' className='font-medium text-base text-white'>
-                      Shipping
+                      Privacy Policy
                     </a>
                   </li>
                   <li>
                     <a href='#' className='font-medium text-base text-white'>
-                      Trade Program
+                      Refund Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#' className='font-medium text-base text-white'>
+                      Terms and Conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#' className='font-medium text-base text-white'>
+                      Blog
                     </a>
                   </li>
                 </ul>
