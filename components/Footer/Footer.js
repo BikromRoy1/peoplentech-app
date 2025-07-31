@@ -83,9 +83,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='font-medium text-base text-white'>
+                    <Link
+                      href='/team'
+                      className='font-medium text-base text-white'
+                    >
                       Our Team
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link
