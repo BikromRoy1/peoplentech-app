@@ -20,7 +20,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f2f4f7;
+  /* background-color: #f2f4f7; */
+  background-color: rgb(218, 237, 237);
   border-radius: 20px;
   clip-path: polygon(0 0, 100% 37%, 100% 100%, 0% 100%);
   -webkit-transition: all 500ms ease;
