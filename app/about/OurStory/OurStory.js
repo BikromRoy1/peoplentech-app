@@ -54,7 +54,7 @@ const OurStory = () => {
           </div>
           <div>
             <div>
-              <h4 class='mb-4 text-xl font-extrabold capitalize   sm:text-3xl'>
+              <h4 className='mb-4 text-xl font-extrabold capitalize   sm:text-3xl'>
                 Our Story
               </h4>
               <p className='text-gray-500 text-[15px] mb-4 font-normal'>
