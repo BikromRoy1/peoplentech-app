@@ -2,6 +2,7 @@ import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
 import TopBar from '@/components/TopBar/TopBar';
 import { Hind_Siliguri, Montserrat } from 'next/font/google';
+import NextTopLoader from 'nextjs-toploader';
 import './globals.css';
 
 const montserrat = Montserrat({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${montserrat.variable} ${hindSiliguri.variable}`}>
+        <NextTopLoader showSpinner={false} />
         <TopBar />
         <Navbar />
         {children}
