@@ -30,7 +30,6 @@ const Home = () => {
       <SuccessStoryVideo />
       <University />
       <SisterConcerns />
-      {/* <GlobalLocation /> */}
       <CareerPlacement />
     </>
   );

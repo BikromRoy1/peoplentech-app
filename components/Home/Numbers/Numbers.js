@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import CountUp from 'react-countup';
 import { FaBolt, FaPlay } from 'react-icons/fa';
 import { FaPhoneVolume } from 'react-icons/fa6';
@@ -210,10 +211,10 @@ const Numbers = () => {
                 </div>
               </div>
               <div className='mt-7'>
-                <a href='#' className='primary-btn'>
+                <Link href='/about' className='primary-btn'>
                   Read More
                   <IoArrowForwardSharp className='ml-2' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

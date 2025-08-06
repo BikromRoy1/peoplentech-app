@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import './SuccessStoryVideo.css';
@@ -67,10 +68,10 @@ const SuccessStoryVideo = () => {
           </div>
         </div>
         <div className='mt-8 text-center'>
-          <a href='#' className='primary-btn'>
+          <Link href='/success-stories' className='primary-btn'>
             Show More
             <IoArrowForwardSharp className='ml-2' />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
