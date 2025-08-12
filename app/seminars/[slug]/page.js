@@ -193,7 +193,7 @@ const SeminarDetails = () => {
                           </p>
                         </div>
                       </li>
-                      <li className=''>
+                      <li className='pb-4'>
                         <div className='flex items-center gap-2'>
                           <div>
                             <IoMdArrowDroprightCircle className='w-[22px] h-[22px] text-primary' />
@@ -201,6 +201,41 @@ const SeminarDetails = () => {
                           <p className='text-base  font-siliguri'>
                             প্রজেক্ট স্ট্রাকচারিং ও ডিবাগিং গাইড: প্রজেক্টকে
                             সঠিকভাবে সাজানো এবং কোডের এরোর খুঁজে বের করার উপায়।
+                          </p>
+                        </div>
+                      </li>
+                      <li className='pb-4'>
+                        <div className='flex items-center gap-2'>
+                          <div>
+                            <IoMdArrowDroprightCircle className='w-[22px] h-[22px] text-primary' />
+                          </div>
+                          <p className='text-base  font-siliguri'>
+                            প্রজেক্ট স্ট্রাকচারিং ও ডিবাগিং গাইড: প্রজেক্টকে
+                            সঠিকভাবে সাজানো এবং কোডের এরোর খুঁজে বের করার উপায়।
+                          </p>
+                        </div>
+                      </li>
+                      <li className='pb-4'>
+                        <div className='flex items-center gap-2'>
+                          <div>
+                            <IoMdArrowDroprightCircle className='w-[22px] h-[22px] text-primary' />
+                          </div>
+                          <p className='text-base  font-siliguri'>
+                            Python শেখা সহজ, কোড লেখা ঝামেলাবিহীন ফলে কম সময়ে
+                            স্কিলড হয়ে দ্রুত ক্যারিয়ার শুরু করা যায়।
+                          </p>
+                        </div>
+                      </li>
+                      <li className=''>
+                        <div className='flex items-center gap-2'>
+                          <div>
+                            <IoMdArrowDroprightCircle className='w-[22px] h-[22px] text-primary' />
+                          </div>
+                          <p className='text-base  font-siliguri'>
+                            Python দিয়ে শুধু ওয়েব ডেভেলপমেন্ট না, সহজেই
+                            ক্যারিয়ার শিফট করতে পারবেন Data Science, AI,
+                            Automation, DevOps এবং Data Analytics-এর মতো
+                            হাই-ডিমান্ড সেক্টরে।
                           </p>
                         </div>
                       </li>
