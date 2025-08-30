@@ -1,7 +1,6 @@
 import PageBanner from '@/components/PageBanner/PageBanner';
 import Link from 'next/link';
 import { BsFillAlarmFill } from 'react-icons/bs';
-import { FaPersonWalkingArrowLoopLeft } from 'react-icons/fa6';
 
 export const Zoom = (props) => (
   <svg
@@ -48,14 +47,25 @@ const Seminars = () => {
       <PageBanner title='Schedule of free seminars' subtitle='Free Seminars' />
       <div className='pb-[80px] pt-[80px]'>
         <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
-          <div className='grid grid-cols-1 gap-5 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
             <div class='project' data-filter='design'>
-              <div class='group rounded-[20px] border-2 border-red-300 bg-white px-4 py-6 transition hover:border-primary hover:bg-primary/10 sm:p-[30px]'>
+              <div class='group rounded-[20px] border-2 border-red-300 bg-white px-3 py-4 transition hover:border-primary hover:bg-primary/10 sm:p-[20px]'>
                 <div>
-                  <h6 class='mb-4 text-base font-black uppercase text-secondary'>
+                  <div className=''>
+                    <div className='w-full h-auto overflow-hidden rounded-[10px]'>
+                      <Link href='/seminars/1'>
+                        <img
+                          className=' w-full h-full object-cover'
+                          src='/image/seminars.webp'
+                          alt='icons'
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                  <h6 class='mb-2 mt-5 text-base font-black uppercase text-secondary'>
                     30 july, 2025
                   </h6>
-                  <h4 class='mb-8 text-xl font-extrabold capitalize text-black  sm:text-1xl'>
+                  <h4 class='mb-5 text-lg font-extrabold capitalize text-black  sm:text-xl'>
                     <Link href='/seminars/1'>
                       Post Graduate Diploma in Cyber Security
                     </Link>
@@ -76,14 +86,6 @@ const Seminars = () => {
                         </div>
                         <div class='font-bold text-black capitalize  sm:text-base'>
                           10:00 PM
-                        </div>
-                      </div>
-                      <div class='flex items-center gap-2'>
-                        <div>
-                          <FaPersonWalkingArrowLoopLeft className='text-primary' />
-                        </div>
-                        <div class='font-bold text-black capitalize  sm:text-base'>
-                          10 Day left
                         </div>
                       </div>
                     </div>
