@@ -1,9 +1,23 @@
+'use client';
+import GLightbox from 'glightbox';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import { IoArrowForwardSharp } from 'react-icons/io5';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import './SuccessStoryVideo.css';
 
 const SuccessStoryVideo = () => {
+  useEffect(() => {
+    const lightbox = GLightbox({
+      touchNavigation: true,
+      loop: true,
+    });
+
+    return () => {
+      lightbox.destroy();
+    };
+  }, []);
+
   return (
     <section className='pb-[100px]'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
@@ -49,7 +63,10 @@ const SuccessStoryVideo = () => {
             </div>
           </div>
           <div className='relative successStudents-items'>
-            <a href=''>
+            <a
+              href='https://www.youtube.com/watch?v=Iqu6wAGioCw'
+              className='glightbox'
+            >
               <img
                 className='w-full h-full object-cover rounded-[10px] cursor-pointer'
                 src='https://img.youtube.com/vi/VEjAVNvh-0Y/maxresdefault.jpg'
@@ -57,7 +74,10 @@ const SuccessStoryVideo = () => {
               />
             </a>
             <div className='flex items-center justify-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10'>
-              <a href=''>
+              <a
+                href='https://www.youtube.com/watch?v=Iqu6wAGioCw'
+                className='glightbox'
+              >
                 <img
                   className='w-[70px] h-[70px]'
                   src='/image/icons/play_icon_2 1.svg'

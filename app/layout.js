@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
 import TopBar from '@/components/TopBar/TopBar';
+import 'glightbox/dist/css/glightbox.css';
 import { Hind_Siliguri, Montserrat } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
 import './globals.css';
