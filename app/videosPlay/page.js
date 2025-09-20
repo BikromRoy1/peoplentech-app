@@ -30,13 +30,14 @@ export default function VideoPlayer() {
   return (
     <div className='container mx-auto'>
       <MediaPlayer
-        src='youtube/_cMxraX_5RE'
+        src='https://www.youtube.com/watch?v=-GfNEDs3ERw'
         viewType='video'
         streamType='on-demand'
         logLevel='warn'
         crossOrigin
         playsInline
-        title='Sprite Fight'
+        autoPlay
+        title='Bikrom - Sprite Fight'
         poster='https://files.vidstack.io/sprite-fight/poster.webp'
       >
         <MediaProvider>
