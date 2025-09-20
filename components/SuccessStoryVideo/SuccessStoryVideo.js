@@ -1,23 +1,12 @@
 'use client';
-import GLightbox from 'glightbox';
 import Link from 'next/link';
-import { useEffect } from 'react';
 import { IoArrowForwardSharp } from 'react-icons/io5';
+
 import SectionTitle from '../SectionTitle/SectionTitle';
+import VideosModal from '../VideosModal/VideosModal';
 import './SuccessStoryVideo.css';
 
 const SuccessStoryVideo = () => {
-  useEffect(() => {
-    const lightbox = GLightbox({
-      touchNavigation: true,
-      loop: true,
-    });
-
-    return () => {
-      lightbox.destroy();
-    };
-  }, []);
-
   return (
     <section className='pb-[100px]'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
@@ -25,6 +14,7 @@ const SuccessStoryVideo = () => {
           title='Success Stories Of Our Students'
           subtitle='Reviews'
         />
+
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
           <div className='relative successStudents-items'>
             <a href=''>
@@ -74,16 +64,13 @@ const SuccessStoryVideo = () => {
               />
             </a>
             <div className='flex items-center justify-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10'>
-              <a
-                href='https://www.youtube.com/watch?v=Iqu6wAGioCw'
-                className='glightbox'
-              >
+              <label htmlFor='video_modal' className='glightbox cursor-pointer'>
                 <img
                   className='w-[70px] h-[70px]'
                   src='/image/icons/play_icon_2 1.svg'
                   alt='icons'
                 />
-              </a>
+              </label>
             </div>
           </div>
         </div>
@@ -94,6 +81,10 @@ const SuccessStoryVideo = () => {
           </Link>
         </div>
       </div>
+      <label htmlFor='video_modal' className='btn bg-[#1bb57b] text-white'>
+        Watch Video
+      </label>
+      <VideosModal />
     </section>
   );
 };

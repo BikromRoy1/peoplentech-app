@@ -4,10 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsFillShieldLockFill } from 'react-icons/bs';
+import { MdRemoveRedEye } from 'react-icons/md';
 import { FaFacebookF, FaQuoteRight } from 'react-icons/fa';
 import { FaLinkedinIn, FaRegClone, FaRegFileLines } from 'react-icons/fa6';
 import { LiaCertificateSolid, LiaToolsSolid } from 'react-icons/lia';
 import { LuBookAudio } from 'react-icons/lu';
+import { PiEyeBold } from 'react-icons/pi';
 import {
   MdOutlineOndemandVideo,
   MdOutlineSlowMotionVideo,
@@ -229,12 +231,14 @@ const CourseDetails = () => {
                                 <PiVideo className='w-[22px] h-[22px] text-neutral-600' />
                               </div>
                               <p className='text-[16px] font-medium text-neutral-600'>
-                                What is web development?
+                                What is web development? How to connect web application with database on the web
                               </p>
                             </div>
-                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
-                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
-                            </div>
+                            <Link href='/videosPlay'>
+                              <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                                <MdRemoveRedEye  className='text-[#00305c] opacity-70 text-[18px]' />
+                              </div>
+                            </Link>
                           </div>
                         </li>
                         <li className='border-b border-b-[#e5e8ef] border-dashed py-3'>
@@ -248,9 +252,11 @@ const CourseDetails = () => {
                                 the web
                               </p>
                             </div>
-                            <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
-                              <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
-                            </div>
+                            <Link href='/videosPlay'>
+                              <div className='w-[30px] h-[30px] bg-[#f1f4f9] text-[#00305c] rounded-full flex items-center justify-center'>
+                                <BsFillShieldLockFill className='text-[#00305c] opacity-70 text-[18px]' />
+                              </div>
+                            </Link>
                           </div>
                         </li>
                         <li className='py-3'>
