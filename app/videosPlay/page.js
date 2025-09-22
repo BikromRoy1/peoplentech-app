@@ -7,7 +7,6 @@ import {
 } from '@vidstack/react/player/layouts/default';
 
 import { useRef, useState } from 'react';
-import { FaLock } from 'react-icons/fa';
 import './VideoPlayer.css';
 
 const VideosPlaying = () => {
@@ -28,7 +27,7 @@ const VideosPlaying = () => {
     },
     {
       id: 3,
-      title: 'First Impressions and Body Language',
+      title: 'First Impressions and Body Language Language Language',
       source: '/image/vidoes/production.mp4',
       duration: '18m 10s',
       isPremium: true,
@@ -77,9 +76,8 @@ const VideosPlaying = () => {
   return (
     <section className='videosPlaying-section'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
-        <div className='grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5'>
-          {/* -------- Left Side Video -------- */}
-          <div>
+        <div className='grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-6'>
+          <div className='md:col-span-7'>
             <div className='flex items-center gap-2 lg:gap-4 pb-[20px]'>
               <h4 className='font-bold text-[#124265] text-[16px] md:text-[20px] leading-[28px]'>
                 Professional Diploma in Graphics, Editing & Animation
@@ -109,69 +107,66 @@ const VideosPlaying = () => {
             </h3>
           </div>
 
-          {/* -------- Right Side Course Content -------- */}
-          <div>
+          <div className='md:col-span-5'>
             <div className='bg-slate-600 px-4 py-7 rounded-md'>
               <div className='videos-module'>
                 <div className='Course-Content flex items-center justify-between pb-4'>
-                  <h4 className='font-semibold text-[16px] md:text-[22px] text-gray-300'>
+                  <h4 className='font-semibold text-[16px] md:text-[20px] text-gray-300'>
                     Course Content
                   </h4>
-                  <h5 className='font-semibold text-[16px] md:text-[22px] text-primary'>
+                  <h5 className='font-semibold text-[16px] md:text-[20px] text-primary'>
                     {videoData.length + 4} Lessons (8h 15m)
                   </h5>
                 </div>
 
-                {/* One Details Example */}
                 <details
                   className='group rounded-lg [&_summary::-webkit-details-marker]:hidden mb-[1rem] bg-[#F5F7F9]'
                   open
                 >
                   <summary className='flex items-center justify-between cursor-pointer bg-[#F5F7F9] py-[1rem] px-[1.25rem] rounded-[6px]'>
                     <h2 className='font-bold text-[#124265] text-[14px] md:text-[16px]'>
-                      Class 01: Oracle Database-SQL: Practice SQL to be
-                      confident in Query
+                      Oracle Database-SQL: Practice SQL to be confident in Query{' '}
                       <span className='font-medium text-[#7b7b8a]'>
                         ({videoData.length} Lectures)
                       </span>
                     </h2>
                   </summary>
 
-                  <div className='mt-[1rem] pl-[1rem]'>
+                  <div className='mt-[1rem] pl-[1rem] pt-[0.2rem] pr-[0.5rem] pb-[0.7rem]'>
                     {videoData.map((data, index) => (
                       <div key={data.id}>
                         <div className='flex justify-between items-center flex-wrap'>
-                          <div className='relative flex items-center flex-wrap'>
-                            <button
+                          <div className='relative flex items-center videos-name-main flex-wrap'>
+                            <a
+                              href='#'
                               onClick={() => changeVideoSource(data.id - 1)}
                               className='btn-danger-soft mb-0'
                             >
-                              ▶
-                            </button>
-                            <span className='inline-block truncate ml-2 mb-0 text-base font-normal w-[200px] cursor-pointer'>
+                              <svg
+                                xmlns='http://www.w3.org/2000/svg'
+                                width='23'
+                                height='23'
+                                fill='currentColor'
+                                className='bi bi-play-fill play-icons mr-0 pl-[3px]'
+                                viewBox='0 0 16 16'
+                              >
+                                <path d='m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393' />
+                              </svg>
+                            </a>
+                            <span className='inline-block truncate ml-2 mb-0 text-[15px] font-normal w-[350px] cursor-pointer'>
                               <span
                                 className={`${
                                   currentVideoIndex === index
-                                    ? 'active-video text-[#d6293e] font-semibold'
+                                    ? 'active-video text-[#d6293e] font-semibold text-[15px]'
                                     : ''
                                 }`}
                                 onClick={() => changeVideoSource(data.id - 1)}
                               >
                                 {data.title}
                               </span>
-                              {data.isPremium ? (
-                                <span className='badge bg-[#FD7E14] text-[14px] text-white ml-1 capitalize flex items-center gap-1'>
-                                  <FaLock className='w-[13px] h-[13px]' />
-                                  premium
-                                </span>
-                              ) : (
-                                <span className='badge bg-[#1CAB55] text-[14px] text-white ml-1'>
-                                  ফ্রি
-                                </span>
-                              )}
                             </span>
                           </div>
-                          <p className='mb-0 text-[#7b7b8a] text-[16px] font-semibold flex items-center gap-2'>
+                          <p className='mb-0 text-[#7b7b8a] text-[14px] font-semibold flex items-center gap-2'>
                             {videoDuration}
                           </p>
                         </div>
