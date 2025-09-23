@@ -76,9 +76,9 @@ const VideosPlaying = () => {
   return (
     <section className='videosPlaying-section'>
       <div className='mx-auto px-4 sm:px-6 container lg:px-8'>
-        <div className='grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-6'>
-          <div className='md:col-span-7'>
-            <div className='flex items-center gap-2 lg:gap-4 pb-[20px]'>
+        <div className='grid grid-cols-3 gap-2 transition-all lg:gap-8'>
+          <div className='col-span-full w-full space-y-8 transition-all lg:col-span-2'>
+            <div className='flex items-center gap-2 lg:gap-4'>
               <h4 className='font-bold text-[#124265] text-[16px] md:text-[20px] leading-[28px]'>
                 Professional Diploma in Graphics, Editing & Animation
               </h4>
@@ -102,16 +102,16 @@ const VideosPlaying = () => {
               />
             </MediaPlayer>
 
-            <h3 className='font-semibold text-[16px] md:text-[19px] leading-[28px] pt-[20px]'>
+            <h3 className='font-semibold text-[16px] md:text-[19px] leading-[28px]'>
               Video: {activeVideoTitle} - Duration: {videoDuration}
             </h3>
           </div>
 
-          <div className='md:col-span-5'>
-            <div className='bg-slate-600 px-4 py-7 rounded-md'>
+          <div className='border-light-1 shadow-1 col-span-full h-max rounded-md border dark:border-slate-50/[0.06] dark:bg-slate-900 lg:col-span-1 lg:rounded-lg'>
+            <div className='bg-[#e5e7eb] custom-shadow px-4 py-7 rounded-lg'>
               <div className='videos-module'>
                 <div className='Course-Content flex items-center justify-between pb-4'>
-                  <h4 className='font-semibold text-[16px] md:text-[20px] text-gray-300'>
+                  <h4 className='font-semibold text-[16px] md:text-[20px] '>
                     Course Content
                   </h4>
                   <h5 className='font-semibold text-[16px] md:text-[20px] text-primary'>
@@ -120,10 +120,10 @@ const VideosPlaying = () => {
                 </div>
 
                 <details
-                  className='group rounded-lg [&_summary::-webkit-details-marker]:hidden mb-[1rem] bg-[#F5F7F9]'
+                  className='group rounded-lg [&_summary::-webkit-details-marker]:hidden mb-[1rem] bg-white'
                   open
                 >
-                  <summary className='flex items-center justify-between cursor-pointer bg-[#F5F7F9] py-[1rem] px-[1.25rem] rounded-[6px]'>
+                  <summary className='flex items-center justify-between cursor-pointer bg-white py-[1rem] px-[1.25rem] rounded-[6px]'>
                     <h2 className='font-bold text-[#124265] text-[14px] md:text-[16px]'>
                       Oracle Database-SQL: Practice SQL to be confident in Query{' '}
                       <span className='font-medium text-[#7b7b8a]'>
@@ -153,7 +153,7 @@ const VideosPlaying = () => {
                                 <path d='m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393' />
                               </svg>
                             </a>
-                            <span className='inline-block truncate ml-2 mb-0 text-[15px] font-normal w-[350px] cursor-pointer'>
+                            <span className='inline-block truncate ml-2 mb-0 text-[15px] font-normal w-[280px] cursor-pointer'>
                               <span
                                 className={`${
                                   currentVideoIndex === index
